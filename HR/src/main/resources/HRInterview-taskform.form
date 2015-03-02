@@ -4,22 +4,6 @@
 <property name="name" value="HRInterview-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="3" name="in_hr_resume" type="InputText" id="1378497915">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;resume (in_hr)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="in_in_hr/resume"/>
-<property name="outputBinding" value=""/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="5" name="out_hr_empid" type="InputTextInteger" id="238108882">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;empid (out_hr)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="out_out_hr/empid"/>
-<property name="fieldClass" value="java.lang.Integer"/>
-</field>
 <field position="0" name="in_hr_age" type="InputTextInteger" id="1454228659">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;age (in_hr)quot;"/>
@@ -27,6 +11,14 @@
 <property name="inputBinding" value="in_in_hr/age"/>
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="1" name="in_hr_email" type="InputText" id="760155303">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;email (in_hr)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_in_hr/email"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="2" name="in_hr_name" type="InputText" id="570724816">
 <property name="fieldRequired" value="false"/>
@@ -36,21 +28,13 @@
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="7" name="out_hr_name" type="InputText" id="87437686">
+<field position="3" name="in_hr_resume" type="InputText" id="1378497915">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;name (out_hr)quot;"/>
+<property name="label" value="quot;enquot;,quot;resume (in_hr)quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="out_out_hr/name"/>
+<property name="inputBinding" value="in_in_hr/resume"/>
+<property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="6" name="out_hr_hraccepted" type="CheckBox" id="1455681926">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;hraccepted (out_hr)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="out_out_hr/hraccepted"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
 </field>
 <field position="4" name="out_hr_age" type="InputTextInteger" id="103967847">
 <property name="fieldRequired" value="false"/>
@@ -60,12 +44,28 @@
 <property name="outputBinding" value="out_out_hr/age"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="1" name="in_hr_email" type="InputText" id="760155303">
+<field position="5" name="out_hr_empid" type="InputTextInteger" id="238108882">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;email (in_hr)quot;"/>
+<property name="label" value="quot;enquot;,quot;empid (out_hr)quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="in_in_hr/email"/>
-<property name="outputBinding" value=""/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="out_out_hr/empid"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="6" name="out_hr_hraccepted" type="CheckBox" id="1455681926">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;hraccepted (out_hr)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="out_out_hr/hraccepted"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="7" name="out_hr_name" type="InputText" id="87437686">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (out_hr)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="out_out_hr/name"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="in_in_hr" name="#0000A0" type="dataModelerEntry" outId="" value="com.project.org.hr.applicant" id="in_hr"/>
