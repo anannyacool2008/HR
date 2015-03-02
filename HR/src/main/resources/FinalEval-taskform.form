@@ -4,106 +4,90 @@
 <property name="name" value="FinalEval-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="app_applicant_age" type="InputTextInteger" id="1935526606">
+<field position="0" name="app_applicant_name" type="InputText" id="609201928">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;age (app_applicant)quot;"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Name:quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="in_eval/age"/>
-<property name="outputBinding" value=""/>
-<property name="fieldClass" value="java.lang.Integer"/>
-</field>
-<field position="1" name="app_applicant_email" type="InputText" id="1379760684">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;email (app_applicant)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="in_eval/email"/>
-<property name="outputBinding" value=""/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="2" name="app_applicant_name" type="InputText" id="609201928">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;name (app_applicant)quot;"/>
-<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="in_eval/name"/>
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="3" name="app_applicant_resume" type="InputText" id="1512680161">
+<field position="1" name="app_applicant_resume" type="InputText" id="1512680161">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;resume (app_applicant)quot;"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Resume:quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="in_eval/resume"/>
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="4" name="man_accepted" type="CheckBox" id="1242550548">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;out_accept (man_accepted)quot;"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Final Acceptance:quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value=""/>
 <property name="outputBinding" value="out_accept"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="5" name="app_hr_age" type="InputTextInteger" id="8617240">
+<field position="2" name="app_hr_hraccepted" type="CheckBox" id="634712439">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;age (app_hr)quot;"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;HR Acceptance:quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="in_hr/age"/>
-<property name="outputBinding" value=""/>
-<property name="fieldClass" value="java.lang.Integer"/>
-</field>
-<field position="6" name="app_hr_empid" type="InputTextInteger" id="1900717719">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;empid (app_hr)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="in_hr/empid"/>
-<property name="outputBinding" value=""/>
-<property name="fieldClass" value="java.lang.Integer"/>
-</field>
-<field position="7" name="app_hr_hraccepted" type="CheckBox" id="634712439">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;hraccepted (app_hr)quot;"/>
-<property name="readonly" value="false"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="in_hr/hraccepted"/>
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="8" name="app_hr_name" type="InputText" id="1498850836">
+<field position="3" name="app_tech_techaccepted" type="CheckBox" id="1138971501">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;name (app_hr)quot;"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Tech Acceptance:quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="in_hr/name"/>
-<property name="outputBinding" value=""/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="9" name="app_tech_age" type="InputTextInteger" id="173842431">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;age (app_tech)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="in_tech/age"/>
-<property name="outputBinding" value=""/>
-<property name="fieldClass" value="java.lang.Integer"/>
-</field>
-<field position="10" name="app_tech_empid" type="InputTextInteger" id="1044911827">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;empid (app_tech)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="in_tech/empid"/>
-<property name="outputBinding" value=""/>
-<property name="fieldClass" value="java.lang.Integer"/>
-</field>
-<field position="11" name="app_tech_name" type="InputText" id="515632874">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;name (app_tech)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="in_tech/name"/>
-<property name="outputBinding" value=""/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="12" name="app_tech_techaccepted" type="CheckBox" id="1138971501">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;techaccepted (app_tech)quot;"/>
-<property name="readonly" value="false"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="in_tech/techaccepted"/>
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.Boolean"/>
