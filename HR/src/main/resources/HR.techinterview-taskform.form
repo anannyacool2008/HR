@@ -1,0 +1,73 @@
+
+<form id="1655939578">
+<property name="subject" value=""/>
+<property name="name" value="HR.techinterview-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="2" name="in_tech_name" type="InputText" id="65388426">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (in_tech)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="in_tech/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="out_tech_techaccepted" type="CheckBox" id="1470842060">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;techaccepted (out_tech)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="out_tech/techaccepted"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="in_tech_email" type="InputText" id="1846344185">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;email (in_tech)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="in_tech/email"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="in_tech_resume" type="InputText" id="1029652445">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;resume (in_tech)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="in_tech/resume"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="in_tech_age" type="InputTextInteger" id="992089010">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;age (in_tech)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="in_tech/age"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="6" name="out_tech_name" type="InputText" id="419734883">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (out_tech)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="out_tech/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="out_tech_empid" type="InputTextInteger" id="1626198974">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;empid (out_tech)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="out_tech/empid"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="4" name="out_tech_age" type="InputTextInteger" id="1490521881">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;age (out_tech)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="out_tech/age"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="in_tech" value="com.project.org.hr.applicant" id="in_tech"/>
+<dataHolder inputId="" name="#FF54A7" type="dataModelerEntry" outId="out_tech" value="com.project.org.hr.techinter" id="out_tech"/>
+</form>
