@@ -1,0 +1,115 @@
+
+<form id="549797950">
+<property name="subject" value=""/>
+<property name="name" value="FinalEval-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="app_applicant_age" type="InputTextInteger" id="1935526606">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;age (app_applicant)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_eval/age"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="1" name="app_applicant_email" type="InputText" id="1379760684">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;email (app_applicant)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_eval/email"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="app_applicant_name" type="InputText" id="609201928">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (app_applicant)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_eval/name"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="app_applicant_resume" type="InputText" id="1512680161">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;resume (app_applicant)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_eval/resume"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="man_accepted" type="CheckBox" id="1242550548">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;out_accept (man_accepted)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="out_accept"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="5" name="app_hr_age" type="InputTextInteger" id="8617240">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;age (app_hr)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_hr/age"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="6" name="app_hr_empid" type="InputTextInteger" id="1900717719">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;empid (app_hr)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_hr/empid"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="7" name="app_hr_hraccepted" type="CheckBox" id="634712439">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;hraccepted (app_hr)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_hr/hraccepted"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="8" name="app_hr_name" type="InputText" id="1498850836">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (app_hr)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_hr/name"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="app_tech_age" type="InputTextInteger" id="173842431">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;age (app_tech)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_tech/age"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="10" name="app_tech_empid" type="InputTextInteger" id="1044911827">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;empid (app_tech)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_tech/empid"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="11" name="app_tech_name" type="InputText" id="515632874">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (app_tech)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_tech/name"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="12" name="app_tech_techaccepted" type="CheckBox" id="1138971501">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;techaccepted (app_tech)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_tech/techaccepted"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="in_eval" name="#0000A0" type="dataModelerEntry" outId="" value="com.project.org.hr.applicant" id="app_applicant"/>
+<dataHolder inputId="in_hr" name="#FF54A7" type="dataModelerEntry" outId="" value="com.project.org.hr.hrinter" id="app_hr"/>
+<dataHolder inputId="in_tech" name="#A7E690" type="dataModelerEntry" outId="" value="com.project.org.hr.techinter" id="app_tech"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="out_accept" value="java.lang.Boolean" id="man_accepted"/>
+</form>
