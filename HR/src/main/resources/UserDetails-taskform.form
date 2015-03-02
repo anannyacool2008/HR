@@ -1,0 +1,40 @@
+
+<form id="656716016">
+<property name="subject" value=""/>
+<property name="name" value="UserDetails-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="app_applicant_age" type="InputTextInteger" id="305758176">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;age (app_applicant)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="user_applicant/age"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="1" name="app_applicant_email" type="InputText" id="450275841">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;email (app_applicant)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="user_applicant/email"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="app_applicant_name" type="InputText" id="1562711652">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (app_applicant)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="user_applicant/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="app_applicant_resume" type="InputText" id="82041173">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;resume (app_applicant)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="user_applicant/resume"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="user_applicant" value="com.project.org.hr.applicant" id="app_applicant"/>
+</form>
