@@ -1,0 +1,20 @@
+
+<form id="514949157">
+<property name="subject" value=""/>
+<property name="name" value="HR.hiring-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="check" type="CheckBox" id="1747636663">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;check (check)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="check"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="app_applicant" value="com.project.org.hr.applicant" id="app_applicant"/>
+<dataHolder inputId="" name="#FF54A7" type="dataModelerEntry" outId="app_hr" value="com.project.org.hr.hrinter" id="app_hr"/>
+<dataHolder inputId="" name="#A7E690" type="dataModelerEntry" outId="app_tech" value="com.project.org.hr.techinter" id="app_tech"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="check" value="java.lang.Boolean" id="check"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="man_accepted" value="java.lang.Boolean" id="man_accepted"/>
+</form>
